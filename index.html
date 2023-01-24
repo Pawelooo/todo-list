@@ -10,15 +10,29 @@
             h3 {
                 text-transform: uppercase;
             }
-            li {
-                overflow: hidden;
-                padding: 20px 0;
-                border-bottom: 1px solid #eee;
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+            ul li {
+                coursor: pointer;
+                position: realative;
+                padding: 12px 8px 12px 40px;
+                backgorund: #eee;
+                font-szie: 18px;
+                transition: 0.2s;
+            }
+            ul li:nth-child(odd){
+                backgorund: #ddd
+            }
+            ul li:hover{
+                backgorund: #ddd;
             }
         </style>
     </head>
     <body>
         <h1>TODO list</h1>
+
         <h3>Todo</h3>
         <ul>
             <li>Buy a hat for the bat</li>
